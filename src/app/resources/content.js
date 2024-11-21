@@ -50,7 +50,7 @@ const social = [
 
 const home = {
   label: "Home",
-  title: `${person.name}'s Portfolio`,
+  title: `${person.name} | ${person.role} | Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Imtiaz Raqib, Frontend Developer</>,
   subline: (
@@ -62,7 +62,7 @@ const home = {
 };
 const about = {
   label: "About",
-  title: "About me",
+  title: "About Imtiaz Raqib | CTO & Lead Frontend Developer",
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: true,
@@ -177,7 +177,7 @@ const about = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Education",
     institutions: [
       {
         name: "University of Alberta",
