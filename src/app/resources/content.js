@@ -321,4 +321,4 @@ const gallery = {
   ],
 };
 
-export { person, social, home, about, work };
+export { person, social, home, about, work, gallery, blog, newsletter };
