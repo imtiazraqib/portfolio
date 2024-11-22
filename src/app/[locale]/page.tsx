@@ -98,7 +98,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         </Flex>
       </Flex>
       <RevealFx translateY="16" delay={0.6}>
-        <Flex direction="column" fillWidth maxWidth="s" gap="m">
+        <Flex direction="column" fillWidth maxWidth="m" gap="m">
           <Heading wrap="balance" variant="display-strong-m" marginBottom="m">
             My Useless Apps
           </Heading>
