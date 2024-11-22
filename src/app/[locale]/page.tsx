@@ -98,10 +98,12 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         </Flex>
       </Flex>
       <RevealFx translateY="16" delay={0.6}>
-        <Heading wrap="balance" variant="display-strong-m" marginBottom="m">
-          My Useless Apps
-        </Heading>
-        <Projects range={[1, 3]} locale={locale} />
+        <Flex direction="column" fillWidth maxWidth="s" gap="m">
+          <Heading wrap="balance" variant="display-strong-m" marginBottom="m">
+            My Useless Apps
+          </Heading>
+          <Projects range={[1, 3]} locale={locale} />
+        </Flex>
       </RevealFx>
       {/* {routes["/blog"] && (
         <Flex fillWidth gap="24" mobileDirection="column">
